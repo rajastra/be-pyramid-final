@@ -1,7 +1,4 @@
-# Tugas PWL 4
-
-Nama : Raja Saputera
-NIM : 120140228
+# Tugas uas pwl
 
 ## how to run
 
