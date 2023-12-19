@@ -70,7 +70,7 @@ https://documenter.getpostman.com/view/23098382/2s9YknANiZ
 | {{URL}}/api/v1/product                | POST   | Create Product             |
 | {{URL}}/api/v1/product/{{PRODUCT_ID}} | POST   | Update Product             |
 | {{URL}}/api/v1/product/{{PRODUCT_ID}} | GET    | Get Product by Id          |
-| {{URL}}/api/v1/product/{{PRODUCT_ID}} | DELETE | update movie by id         |
+| {{URL}}/api/v1/product/{{PRODUCT_ID}} | DELETE | Delete Product             |
 | {{URL}}/api/v1/product?search=        | GET    | Get Product All and Search |
 
 ## api routes Service Cart
