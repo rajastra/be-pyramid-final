@@ -6,7 +6,10 @@ import zope.sqlalchemy
 # Import or define all models here to ensure they are attached to the
 # ``Base.metadata`` prior to any initialization routines.
 from .user import User  # flake8: noqa
-from .movie import Movie  # flake8: noqa
+from .cart import Cart  # flake8: noqa
+from .order import Order  # flake8: noqa
+from .order_cart import OrderCart  # flake8: noqa
+from .product import Product  # flake8: noqa
 
 # Run ``configure_mappers`` after defining all of the models to ensure
 # all relationships can be setup.

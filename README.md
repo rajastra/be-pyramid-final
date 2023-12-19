@@ -11,7 +11,7 @@ git clone
 2. change directory to this repo
 
 ```bash
-cd pwl4
+cd final-project-pwl
 ```
 
 3.  change development.ini url to your database url
