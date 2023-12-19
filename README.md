@@ -50,14 +50,34 @@ pserve development.ini --reload
 pytest
 ```
 
-## api routes
+## api routes Auth Service
 
-| Route        | Method | Description        |
-| ------------ | ------ | ------------------ |
-| /login       | POST   | login              |
-| /register    | POST   | register           |
-| /movies      | GET    | get all movies     |
-| /movies      | POST   | create movie       |
-| /movies/{id} | GET    | get movie by id    |
-| /movies/{id} | PUT    | update movie by id |
-| /movies/{id} | DELETE | delete movie by id |
+| Route                        | Method | Description |
+| ---------------------------- | ------ | ----------- |
+| {{URL}}/api/v1/auth/login    | POST   | login       |
+| {{URL}}/api/v1/auth/register | POST   | register    |
+
+## api routes Product Service
+
+| Route                                 | Method | Description                |
+| ------------------------------------- | ------ | -------------------------- |
+| {{URL}}/api/v1/product                | POST   | Create Product             |
+| {{URL}}/api/v1/product/{{PRODUCT_ID}} | POST   | Update Product             |
+| {{URL}}/api/v1/product/{{PRODUCT_ID}} | GET    | Get Product by Id          |
+| {{URL}}/api/v1/product/{{PRODUCT_ID}} | DELETE | update movie by id         |
+| {{URL}}/api/v1/product?search=        | GET    | Get Product All and Search |
+
+## api routes Service Cart
+
+| Route                   | Method | Description                 |
+| ----------------------- | ------ | --------------------------- |
+| {{URL}}/api/v1/cart     | POST   | Add data product to Cart    |
+| {{URL}}/api/v1/cart?id= | GET    | Get data Cart by User Id    |
+| {{URL}}/api/v1/cart?id= | DELETE | Delete data Cart by User Id |
+
+## api routes Service Order
+
+| Route                | Method | Description           |
+| -------------------- | ------ | --------------------- |
+| {{URL}}/api/v1/order | POST   | Checkout Product User |
+| {{URL}}/api/v1/order | GET    | Get Data Order User   |
