@@ -50,6 +50,12 @@ pserve development.ini --reload
 pytest
 ```
 
+## Documentation
+
+```
+https://documenter.getpostman.com/view/23098382/2s9YknANiZ
+```
+
 ## api routes Auth Service
 
 | Route                        | Method | Description |
